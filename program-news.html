@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>News, Updates, and Social Media</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Updates from St. Louis's Programming School" />
+		<meta name="keywords" content="Programming, Coding, Startups, St. Louis, Claim Academy, Java, Ruby, .NET" />
+		
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="/css/skel.css" />
+			<link rel="stylesheet" href="/css/style.css" />
+			<link rel="stylesheet" href="/css/style-wide.css" />
+		</noscript>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		
+	<!--SOCIAL FEED BELOW THIS LINE-->
+		<!-- Social-feed css -->
+		<link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+		<!-- font-awesome for social network icons -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="social/bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- Codebird.js - required for TWITTER -->
+		<script src="social/bower_components/codebird-js/codebird.js"></script>
+		<!-- doT.js for rendering templates -->
+		<script src="social/bower_components/doT/doT.min.js"></script>
+		<!-- Moment.js for showing "time ago" -->
+		<script src="social/bower_components/moment/min/moment.min.js"></script>
+		<!-- Social-feed js -->
+		<script src="js/jquery.socialfeed.js"></script>
+		<script>
+		    $(document).ready(function(){
+		        $('.social-feed-container').socialfeed({
+		                    // FACEBOOK
+		                    facebook:{
+		                        accounts: ['@claimacademy','#claimacademy'],
+		                        limit: 4,
+		                        access_token: '313897815473236|7JcHyj-_dNeceOs2im0QapTzVC0' // APP_ID|APP_SECRET
+		                    },
+		                    // TWITTER
+		                    twitter:{
+		                        accounts: ['@claimacademystl'],
+		                        limit: 5,
+		                        consumer_key: 'hUgbG0Zi3i915b9CdgmDrStlK', // make sure to have your app read-only
+		                        consumer_secret: '89HW6M7yvqXgnGWknubkZNTtFiHixYiXWn0HL9XPLvSAVkzZjX', // make sure to have your app read-only
+		                     },
+		                    // VK
+		                    // vk:{
+		                    //     accounts: ['@125936523','#teslamotors'], 
+		                    //     limit: 2,
+		                    //     source: 'all'
+		                    // },
+		                    // // GOOGLEPLUS
+		                    google:{
+		                         accounts: ['+claimacademystl'],
+		                         limit: 2,
+		                         access_token: 'AIzaSyBxYMULSoUUN-olQu11ZMuxZDfpEZeSx7E'
+		                     },
+		                    // INSTAGRAM
+		                    // instagram:{
+		                    //     accounts: ['@teslamotors','#teslamotors'],
+		                    //     limit:2,
+		                    //     client_id: 'YOUR_INSTAGRAM_CLIENT_ID'
+		                    // },
+		                    // BLOGSPOT
+		                    /*blogspot:{
+		                        accounts:['@iman-khaghanifar']
+		                    },*/
+		                    // GENERAL SETTINGS
+		                    length:600,
+		                    show_media:true,
+		                    // Moderation function - if returns false, template will have class hidden
+		                    moderation: function(content){
+		                        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+		                    },
+		                    //update_period: 5000,
+		                    // When all the posts are collected and displayed - this function is evoked
+		                    callback: function(){
+		                        console.log('all posts are collected');
+		                    }
+		                });
+		        });
+		</script>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="skel-layers-fixed">
+				<h1><a href="index.html"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="http://eepurl.com/82eo5" class="button">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="container">
+				<!--Blog posts (list-style feed from subdomain blog)-->
+				<!--<div class="box">-->
+				<!--	<h3 id="teachername">Blog</h3>-->
+				<!--	<p></p>-->
+				<!--	<p>This is some test text to show where blog previews are going to go (once we have a blog page up)</p>-->
+				<!--</div>-->
+				<!--news links (block and grid style with image->heading->subheading from blog and from eternal sources)-->
+				<!--<div class="box">-->
+				<!--	<h3 id="teachername">Claim Academy in the News</h3>-->
+				<!--	<p></p>-->
+				<!--	<p>This is some test text to show where news stippets and press releases are going to go (once we have some)</p>-->
+				<!--</div>-->
+				
+				<!--Social media feed using jQuery-->
+				<div class="box">
+					<h3 id="teachername">Social Media</h3>
+					<div id="socialfeed">
+						<ul class="icons">
+							<li><a href="http://twitter.com/claimacademystl" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="http://facebook.com/claimacademy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.linkedin.com/company/claim-academy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://plus.google.com/+Claimacademystl/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						</ul>
+					</div>
+					<p></p>
+					<p id="socialcallout">Check out some of our latest posts below, or follow us by clicking the buttons above.</p>
+					<!--<div class="arrow-down"></div>-->
+					<div class="social-feed-container"> 
+					</div>
+				</div>
+			</section>
+			
+		<!-- CTA -->
+			<section id="cta">
+				<h2>Keep up with Claim Academy</h2>
+				<p>Enter your email address below to get updates about our programs.</p>
+			    <div id="mc_embed_signup">
+				    <form action="//claimacademystl.us9.list-manage.com/subscribe/post?u=79cf6ff8ead503f9b7587debe&amp;id=bebd29520f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				        <div id="mc_embed_signup_scroll">
+					    	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					        <div style="position: absolute; left: -5000px;"><input type="text" name="b_79cf6ff8ead503f9b7587debe_bebd29520f" tabindex="-1" value=""></div>
+					        <div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				        </div>
+				    </form>
+			    </div>
+				
+			</section>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="http://twitter.com/claimacademystl" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="http://facebook.com/claimacademy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.linkedin.com/company/claim-academy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://plus.google.com/+Claimacademystl/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+				</ul>
+				
+				<ul class="copyright">
+					<li>email: info@claimacademystl.com</li>
+					<li>phone: (314) 499-5888</li>
+					<li>515 Olive St #600, St. Louis, MO 63101</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Claim Academy. All rights reserved.</li>
+				</ul>
+			</footer>
+		<!--Scrolling function-->
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+		<!--Google Analytics-->
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-57286580-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
+	</body>
+</html>
