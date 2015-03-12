@@ -576,6 +576,61 @@
 		    background-size: 170%;
 		    background-position: 47%;
 		}
+		
+		.box .image.circle.andy{
+		    background-image: url(http://i.imgur.com/X5OcnhH.jpg);
+		    background-size: 100%;
+		}
+		
+		.box .image.circle.harold{
+		    background-image: url(http://i.imgur.com/1gvXFow.jpg);
+		    background-size: 100%;
+		}
+		
+		.box .image.circle.patrick{
+		    background-image: url(http://i.imgur.com/Tydrl4Z.jpg);
+		    background-size: 100%;
+		}
+		.box .image.circle.santosh{
+		    background-image: url(http://i.imgur.com/IZtzPvc.jpg?3);
+		    background-size: 100%;
+		}
+		.box .image.circle.sreekanth{
+		    background-image: url(http://i.imgur.com/42NYQsd.jpg);
+		    background-size: 100%;
+		}
+		.box .image.circle.alex{
+		    background-image: url(http://i.imgur.com/hd9LyeP.jpg);
+		    background-size: 180%;
+		    background-position: 50%;
+		}
+		.box .image.circle.kristena{
+		    background-image: url(http://i.imgur.com/QY0HeMW.jpg);
+		    background-size: 100%;
+		}
+		.box .image.circle.william{
+		    background-image: url(http://i.imgur.com/fHSYubf.png?1);
+		    background-size: 150%;
+		    background-position: 40%;
+		}
+		.box .image.circle.sheila{
+		    background-image: url(http://i.imgur.com/OJGqtpE.jpg?1);
+		    background-size: 100%;
+		}
+		.box .image.circle.yomi{
+		    background-image: url(http://i.imgur.com/nsgAv3L.jpg);
+		    background-size: 100%;
+		}
+		
+		.box .image.circle.brad{
+		    background-image: url(http://i.imgur.com/hOX7jmm.jpg);
+		    background-size: 100%;
+		}
+		
+		.box .image.circle.ola{
+		    background-image: url(http://i.imgur.com/FeUv7kF.jpg?1);
+		    background-size: 100%;
+		}
 
 /* Icon */
 
