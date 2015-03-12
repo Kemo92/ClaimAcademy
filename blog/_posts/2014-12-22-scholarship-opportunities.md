@@ -1,0 +1,10 @@
+---
+layout: posts
+title: "Scholarship Opportunities"
+---
+
+It's important to us here at Claim Academy to ensure that no qualified candidate ever believes that the training they need to succeed as a developer is beyond their reach.
+
+That's why we're so excited to announce that we are able to offer <b>20 full scholarships</b> to qualified candidates. These scholarships are made possible by our partnership with local St. Louis businesses, and include full coverage of our $8000/course tuition and <b>guaranteed employment</b> upon graduation from our program. All candidates that check "I would like to be considered for financial aid" on our [online application](http://claimacadmeystl.com/html/signup.html "Online application"). Candidates interested in these scholarships will be subject to additional interviews, and only the most qualified candidates will be considered.
+
+Applications will be considered in the order in which they're recieved, so apply today!

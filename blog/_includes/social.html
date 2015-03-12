@@ -1,0 +1,52 @@
+<!--SOCIAL FEED BELOW THIS LINE-->
+		<!-- Social-feed css -->
+		<link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+		<!-- font-awesome for social network icons -->
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="social/bower_components/jquery/dist/jquery.min.js"></script>
+		<!-- Codebird.js - required for TWITTER -->
+		<script src="social/bower_components/codebird-js/codebird.js"></script>
+		<!-- doT.js for rendering templates -->
+		<script src="social/bower_components/doT/doT.min.js"></script>
+		<!-- Moment.js for showing "time ago" -->
+		<script src="social/bower_components/moment/min/moment.min.js"></script>
+		<!-- Social-feed js -->
+		<script src="js/jquery.socialfeed.js"></script>
+		<script>
+		    $(document).ready(function(){
+		        $('.social-feed-container').socialfeed({
+		                    // FACEBOOK
+		                    facebook:{
+		                        accounts: ['@claimacademy','#claimacademy'],
+		                        limit: 4,
+		                        access_token: '313897815473236|7JcHyj-_dNeceOs2im0QapTzVC0' // APP_ID|APP_SECRET
+		                    },
+		                    // TWITTER
+		                    twitter:{
+		                        accounts: ['@claimacademystl'],
+		                        limit: 5,
+		                        consumer_key: 'hUgbG0Zi3i915b9CdgmDrStlK', // make sure to have your app read-only
+		                        consumer_secret: '89HW6M7yvqXgnGWknubkZNTtFiHixYiXWn0HL9XPLvSAVkzZjX', // make sure to have your app read-only
+		                     },
+		                    // GOOGLEPLUS
+		                    google:{
+		                         accounts: ['242934150678-compute@developer.gserviceaccount.com'],
+		                         limit: 2,
+		                         access_token: 'AIzaSyD790h64H9SEd4z41JTHb0rIF78Kq7l8QY'
+		                     },
+		                    // GENERAL SETTINGS
+		                    length:600,
+		                    show_media:true,
+		                    // Moderation function - if returns false, template will have class hidden
+		                    moderation: function(content){
+		                        return  (content.text) ? content.text.indexOf('fuck') == -1 : true;
+		                    },
+		                    //update_period: 5000,
+		                    // When all the posts are collected and displayed - this function is evoked
+		                    callback: function(){
+		                        console.log('all posts are collected');
+		                    }
+		                });
+		        });
+		</script>

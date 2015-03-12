@@ -1,0 +1,14 @@
+name: "Claim Academy Blog"
+description: "News and Updates from Claim Academy: St. Louis' Programming School"
+
+paginate: 15
+
+markdown: rdiscount
+permalink: /blog/:year/:month/:day/:title/
+
+ftp_host: 'ds6257.dreamservers.com'
+ftp_dir: '/claimacademystl.com/blog'
+ftp_passive: false
+
+ftp_username: 'claim_academy'     # default read from stdin
+ftp_password: 'opendoor' # default read from stdin

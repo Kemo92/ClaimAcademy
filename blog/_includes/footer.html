@@ -1,0 +1,44 @@
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="http://twitter.com/claimacademystl" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="http://facebook.com/claimacademy" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.linkedin.com/company/claim-academy" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://plus.google.com/+Claimacademystl/posts" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>email: info@claimacademystl.com</li>
+					<li>phone: (314) 499-5888</li>
+					<li>515 Olive St #600, St. Louis, MO 63101</li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Claim Academy. All rights reserved.</li>
+				</ul>
+			</footer>
+		<!--Scrolling function-->
+		<script>
+			$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
+		<!--Google Analytics-->
+			<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-57286580-1', 'auto');
+			  ga('send', 'pageview');
+			</script>
