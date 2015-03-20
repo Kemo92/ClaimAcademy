@@ -575,7 +575,7 @@
 		    background-image: url(http://i.imgur.com/MbapEfY.jpg);
 		    background-size: 170%;
 		    background-position: 47%;
-		}
+		} 
 		
 		.box .image.circle.andy{
 		    background-image: url(http://i.imgur.com/X5OcnhH.jpg);
@@ -1618,9 +1618,14 @@
 	.logos a:hover{
 		opacity: 1.0;
 	}
+	
 	#logobox{
 		-webkit-column-count: 3; /* Chrome, Safari, Opera */
     	-moz-column-count: 3; /* Firefox */
     	-ms-column-count: 3; /* IE? */
     	column-count: 3;
+	}
+	
+	.mobileonly{
+		display:none;
 	}
