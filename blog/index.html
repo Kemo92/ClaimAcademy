@@ -6,6 +6,7 @@ layout: blogdefault
     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
     <h4>{{ post.date | date_to_long_string }}</h4>
     <p>
+      {{ post.excerpt | strip_html }}
       <a href="{{ post.url }}">Read Post</a>
     </p>
     <hr>
