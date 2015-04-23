@@ -5,7 +5,7 @@ title: ".NET Instructor Spotlight: Andrew Benz"
 
 ##At Claim Academy, our greatest assets are the people that make each class interesting, engaging, and valuable: the instructors. To help you get to know our instructors a little better, we will be featuring our instructors periodically on our blog. To get us started, here's a little bit about Andrew Benz, one of our three .NET instructors for the April 18th .NET cohort.
 
-<img style="margin-left:auto; margin-right:auto;" src="http://i.imgur.com/HbrwlpZ.jpg?2"/>
+<img style="width:75%; margin-right:auto; margin-left:7vw; margin-top: 3vw; border-radius: 10%;"  src="http://i.imgur.com/HbrwlpZ.jpg?2"/>
 
 ***
 
