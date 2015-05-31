@@ -25,6 +25,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <script src="js/skel.min.js"></script>
 <script src="js/skel-layers.min.js"></script>
 <script src="js/init.js"></script>
+<script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 <noscript>
 <link rel="stylesheet" href="../css/skel.css" />
 <link rel="stylesheet" href="../css/style.css" />
@@ -58,10 +63,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 <section id="banner">
 <div id="headsplash">
 <p style="font-size:6vw">We are Claim Academy</p>
-<div class="12u">
-    <iframe src="https://gfycat.com/ifr/InfiniteShortAgouti" frameborder="0" scrolling="no" width="100%" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+<!--<div class="12u">-->
+<!--    <iframe name="Claim Academy Montage" src="https://gfycat.com/ifr/InfiniteShortAgouti" frameborder="0" scrolling="no" id="iframe" onload='javascript:resizeIframe(this);' width="100%" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>-->
     <!--<img src="http://i.imgur.com/i73kk71.png" alt="The next generation of St. Louis programmers."/>-->
-</div>
+<!--</div>-->
+<!--<video>-->
+<!--    <source data-ng-src="http://fat.gfycat.com/InfiniteShortAgouti.webm" type="video/webm" src="http://fat.gfycat.com/InfiniteShortAgouti.webm" width="100%">-->
+<!--</video>-->
 </div>
 </section>
 
