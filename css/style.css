@@ -1117,6 +1117,10 @@
 	}
 	
 	video{
+		top: 0;
+		left: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	#skel-layers-wrapper {
