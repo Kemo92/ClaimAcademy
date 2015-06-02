@@ -1137,6 +1137,7 @@
 
 #sponsor a{
     color: rgba(255,255,255, 0.8);
+    /*background-color: rgba(140,198,77,0.5);*/
 }
 
 #sponsor a:hover{
@@ -1146,9 +1147,8 @@
     width: 28vw;
     height: 28vw; 
     border: 1px solid;
-    border-color: rgb(155,155,155); 
+    border-color: rgba(155,155,155, 0.0); 
     background-color: rgba(140,198,77,0.5);
-
     border-radius: 50%; 
 }
 
@@ -1175,7 +1175,7 @@
     width: 28vw;
     height: 28vw; 
     border: 1px solid;
-    border-color: rgb(155,155,155); 
+    border-color: rgba(155,155,155, 0.0); 
     border-radius: 50%; 
     background-color: rgba(140,198,77,0.5);
 }
