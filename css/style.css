@@ -1111,6 +1111,14 @@
 }
 /* Header */
 
+	#vidoverlay{
+		position: absolute;
+		left: 20%;
+	}
+	
+	video{
+	}
+
 	#skel-layers-wrapper {
 		padding-top: 3em;
 	}
