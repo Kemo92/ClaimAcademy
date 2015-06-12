@@ -604,6 +604,11 @@
 		    background-image: url(http://i.imgur.com/5UKWsiz.png);
 		    background-size: 100%; 
 		}
+		
+		.box .image.circle.vinod{
+		    background-image: url(http://i.imgur.com/sDatLur.jpg);
+		    background-size: 100%; 
+		}
 		.box .image.circle.alex{
 		    background-image: url(http://i.imgur.com/eujmCjG.jpg);
 		    background-size: 140%;
