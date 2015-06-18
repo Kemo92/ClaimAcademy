@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Claim Academy Blog</title>
+		<description>News and Updates from Claim Academy: St. Louis&#39; Programming School</description>		
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Java Instructor Spotlight: Nicholas Kraftor</title>
+				        
+				
+					<description>&lt;h2&gt;Looking to learn more about our instructors? Check out Nick Kraftor, one of our Java instructors for the June 13th cohort!&lt;/h2&gt;
+</description>
+				
+				<pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+				<link>/blog/2015/06/18/instructor-spotlight-nick-kraftor/</link>
+				<guid isPermaLink="true">/blog/2015/06/18/instructor-spotlight-nick-kraftor/</guid>
+			</item>
+		
+			<item>
+				<title>.NET Instructor Spotlight: Alan Long</title>
+				        
+				
+					<description>&lt;h2&gt;In part 2 of our Instructor Spotlight series, we learn a little bit more about Alan Long. Alan is a part of the .NET team for the April 18th cohort.&lt;/h2&gt;
+</description>
+				
+				<pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
+				<link>/blog/2015/04/26/instructor-spotlight-alan-long/</link>
+				<guid isPermaLink="true">/blog/2015/04/26/instructor-spotlight-alan-long/</guid>
+			</item>
+		
+			<item>
+				<title>Frequently Asked Questions</title>
+				        
+				
+					<description>&lt;h2&gt;There are a few common questions that pop up consistently about our boot camps. This post should answer a few of them. If you have any questions not covered here, always feel free to email info@claimacademystl.com directly!&lt;/h2&gt;
+</description>
+				
+				<pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate>
+				<link>/blog/2015/04/21/faq/</link>
+				<guid isPermaLink="true">/blog/2015/04/21/faq/</guid>
+			</item>
+		
+			<item>
+				<title>.NET Instructor Spotlight: Andrew Benz</title>
+				        
+				
+					<description>&lt;h2&gt;At Claim Academy, our greatest assets are the people that make each class interesting, engaging, and valuable: the instructors. To help you get to know our instructors a little better, we will be featuring our instructors periodically on our blog. To get us started, here&#39;s a little bit about Andrew Benz, one of our three .NET instructors for the April 18th .NET cohort.&lt;/h2&gt;
+</description>
+				
+				<pubDate>Mon, 20 Apr 2015 00:00:00 +0000</pubDate>
+				<link>/blog/2015/04/20/instructor-spotlight-andrew-benz/</link>
+				<guid isPermaLink="true">/blog/2015/04/20/instructor-spotlight-andrew-benz/</guid>
+			</item>
+		
+			<item>
+				<title>Spotlight on Arjun and Alex</title>
+				        
+				
+					<description>&lt;h2&gt;Arjun and Alex were recently featured on &lt;a href=&quot;http://coursereport.com&quot;&gt;Course Report&lt;/a&gt;. We&#39;ve reposted the content of the interview on this page, but be sure to head over to the &lt;a href=&quot;https://www.coursereport.com/blog/spotlight-on-alex-arjun-claim-academy&quot;&gt;original interview&lt;/a&gt; and follow Course Report on Twitter &lt;a href=&quot;http://twitter.com/coursereport&quot;&gt;@CourseReport&lt;/a&gt;.&lt;/h2&gt;
+</description>
+				
+				<pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+				<link>/blog/2015/01/13/interview-arjun-alex/</link>
+				<guid isPermaLink="true">/blog/2015/01/13/interview-arjun-alex/</guid>
+			</item>
+		
+			<item>
+				<title>The Application Process</title>
+				        
+				
+					<description>&lt;p&gt;So you&#39;re ready to apply to Claim Academy. Congratulations! We&#39;re glad you&#39;re interested in one (or more) of our classes. Here&#39;s a step-by-step guide through our application process:&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
+				<link>/blog/2014/12/30/application-process/</link>
+				<guid isPermaLink="true">/blog/2014/12/30/application-process/</guid>
+			</item>
+		
+			<item>
+				<title>Scholarship Opportunities</title>
+				        
+				
+					<description>&lt;p&gt;It&#39;s important to us here at Claim Academy to ensure that no qualified candidate ever believes that the training they need to succeed as a developer is beyond their reach.&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
+				<link>/blog/2014/12/22/scholarship-opportunities/</link>
+				<guid isPermaLink="true">/blog/2014/12/22/scholarship-opportunities/</guid>
+			</item>
+		
+			<item>
+				<title>Welcome to the Claim Academy Blog</title>
+				        
+				
+					<description>&lt;h2&gt;Welcome to Claim Academy!&lt;/h2&gt;
+</description>
+				
+				<pubDate>Sun, 14 Dec 2014 00:00:00 +0000</pubDate>
+				<link>/blog/2014/12/14/welcome-to-claim-academy/</link>
+				<guid isPermaLink="true">/blog/2014/12/14/welcome-to-claim-academy/</guid>
+			</item>
+		
+			<item>
+				<title>Introducing the Claim Academy Team</title>
+				        
+				
+					<description>&lt;p&gt;For our first post, we&#39;d like to introduce the executive team behind the scenes of Claim Academy. You&#39;ll certainly get to spend a lot of time with your instructors and mentors, but you might not often interact with some of the folks that make this organization run behind the scenes.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+				<link>/blog/2014/12/12/hello-blog/</link>
+				<guid isPermaLink="true">/blog/2014/12/12/hello-blog/</guid>
+			</item>
+		
+	</channel>
+</rss>
