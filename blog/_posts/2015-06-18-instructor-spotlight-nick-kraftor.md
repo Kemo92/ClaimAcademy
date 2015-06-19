@@ -15,7 +15,7 @@ title: "Java Instructor Spotlight: Nicholas Kraftor"
 + *Class/Cohort:* Java 061315
 + *Education:* BA in Physics with an emphasis in Observational Astronomy, UMSL
 + *Current Day Job:* Mobile Application developer at <a href="http://www.enterpriseholdings.com/">Enterprise Holdings, Inc.</a>
-+ *Programming professionally since...:* 2012
++ *Programming professionally since:* 2012
 + *Email:* nick@claimacademystl.com
 + *Twitter:* @kraftmatic
 
@@ -47,7 +47,7 @@ Later in high school I got into niche programming by creating both BASIC and ASM
 Through college my focuses turned towards science (especially physics) but I still found myself gravitating towards the computer-side of things as I got involved with a project that required writing IDL scripts to help process data.  After a while I found that I was enjoying the coding aspect of it more than the science itself.
 
 
-**In your opinion, what's the most exciting thing happening in the world of .NET right now?**
+**In your opinion, what's the most exciting thing happening in the world of Java right now?**
 
 Nick: One of the things I am most excited to see is just how prevalent the Java Virtual Machine is becoming due to the surge of programming languages outside of Java.  We now have many languages that offer a different set of programming tools to developers such as Clojure, Groovy, and Scala.  There are even languages that allow you to program on a familiar platform and execute through the JVM such as Jython and JRuby
 
