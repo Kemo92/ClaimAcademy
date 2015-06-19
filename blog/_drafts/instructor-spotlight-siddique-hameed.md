@@ -6,7 +6,7 @@ Date: 2015-06-22
 
 ##Continuing in our Instructor Spotlight series for our Java instructors, meet Siddique Hameed. He's a third of the Java instructor team for the June 13th cohort along with [Siddique Kraftor](http://claimacademystl.com/blog/2015/06/18/instructor-spotlight-Siddique-kraftor/) and Vinod Vydier (spotlight coming soon).##
 
-<img style="width:75%; margin-right:auto; margin-left:7vw; margin-top: 3vw; border-radius: 10%;"  src="http://i.imgur.com/Qs1Ell6.jpg"/>
+<img style="width:75%; margin-right:auto; margin-left:7vw; margin-top: 3vw; border-radius: 10%;"  src="http://i.imgur.com/5UKWsiz.png"/>
 
 ***
 
